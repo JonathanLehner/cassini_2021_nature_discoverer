@@ -1,0 +1,36 @@
+planet_osm_polygon:
+  types:
+    - polygons
+  select:
+    - historic
+    - landuse
+    - leisure
+    - name
+    - natural
+    - water
+    - waterway
+  where:
+    - leisure='park'
+    - natural='water'
+    - landuse='forest'
+    - natural='grassland'
+    - natural='wetland'
+    - 'natural IN (''peak'',''volcano'',''valley'',''ridge'',''cliff'')'
+    - historic IS NOT NULL
+planet_osm_point:
+  types:
+    - points
+  select:
+    - historic
+    - name
+    - natural
+  where:
+    - 'natural IN (''peak'',''volcano'',''valley'',''ridge'',''cliff'')'
+    - historic IS NOT NULL
+planet_osm_line:
+  types:
+    - lines
+  select:
+    - natural
+  where:
+    - 'natural IN (''peak'',''volcano'',''valley'',''ridge'',''cliff'')'
