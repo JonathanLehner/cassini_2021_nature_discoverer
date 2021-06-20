@@ -12,6 +12,8 @@ A repo for work completed during the June 18-20, 2021 CASSINI Hackathon sponsore
 
 ![valais + areas of interest (prelim)](https://user-images.githubusercontent.com/74869040/122691284-00951c00-d22f-11eb-9b81-cbd8b5c910de.jpeg)
 
+- *Areas of interest are highlighted in red vs. the green/yellow/blue colormap for "normal" terrain*
+
 ## Overview
 
 What if traveling to new places could be reliably engaging and rewarding? 
